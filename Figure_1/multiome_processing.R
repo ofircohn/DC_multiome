@@ -251,3 +251,4 @@ plot(p1  &  NoAxes())
 dev.off()
 combined.sct$CellType = Idents(combined.sct)
 
+saveRDS("combined.sct.rds")
